@@ -7,6 +7,13 @@
     "goodcleanfun/vector": "*"
   },
   "license": "MIT",
-  "src": ["src/num_arrays.h"]
+  "src": [
+    "src/double_array.h",
+    "src/float_array.h",
+    "src/int32_array.h",
+    "src/int64_array.h",
+    "src/uint32_array.h",
+    "src/uint64_array.h"
+  ]
 }
 
