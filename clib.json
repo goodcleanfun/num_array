@@ -1,12 +1,12 @@
 {
-  "name": "num_array",
+  "name": "num_arrays",
   "version": "0.1.0",
-  "repo": "goodcleanfun/num_array",
-  "keywords": ["vector", "array", "standard"],
+  "repo": "goodcleanfun/num_arrays",
+  "keywords": ["vector", "array", "standard", "numeric"],
   "dependencies": {
     "goodcleanfun/vector": "*"
   },
   "license": "MIT",
-  "src": ["src/arrays.h"]
+  "src": ["src/num_arrays.h"]
 }
 
