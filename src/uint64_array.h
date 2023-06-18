@@ -5,6 +5,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
+#include "nop.h"
 #include "vector/vector.h"
 
 VECTOR_INIT_NUMERIC(uint64_array, uint64_t, uint64_t, nop)
