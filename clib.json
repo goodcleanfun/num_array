@@ -12,6 +12,7 @@
     "src/float_array.h",
     "src/int32_array.h",
     "src/int64_array.h",
+    "src/nop.h",
     "src/uint32_array.h",
     "src/uint64_array.h"
   ]
