@@ -5,8 +5,10 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "vector/vector.h"
+#include "nop.h"
+#include "uint32_array.h"
+#include "vector/numeric.h"
 
-VECTOR_INIT(uint32_array, uint32_t)
+VECTOR_NUMERIC(uint32_array, uint32_t, uint32_t, nop)
 
 #endif

@@ -5,8 +5,9 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "vector/vector.h"
+#include "int64_array.h"
+#include "vector/numeric.h"
 
-VECTOR_INIT(int64_array, int64_t)
+VECTOR_NUMERIC(int64_array, int64_t, uint64_t, llabs)
 
 #endif
