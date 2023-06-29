@@ -1,6 +1,6 @@
 {
   "name": "num_arrays",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "repo": "goodcleanfun/num_arrays",
   "keywords": ["vector", "array", "standard", "numeric"],
   "dependencies": {
