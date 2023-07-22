@@ -5,6 +5,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
+#include "nop.h"
 #include "vector/vector.h"
 #include "vector/numeric.h"
 
