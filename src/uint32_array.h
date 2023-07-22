@@ -6,7 +6,9 @@
 #include <stdbool.h>
 
 #include "vector/vector.h"
+#include "vector/numeric.h"
 
 VECTOR_INIT(uint32_array, uint32_t)
+VECTOR_NUMERIC(uint32_array, uint32_t, uint32_t, nop)
 
 #endif
