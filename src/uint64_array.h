@@ -6,10 +6,20 @@
 #include <stdbool.h>
 
 #include "nop.h"
-#include "vector/vector.h"
-#include "vector/numeric.h"
 
-VECTOR_INIT(uint64_array, uint64_t)
-VECTOR_NUMERIC(uint64_array, uint64_t, uint64_t, nop)
+
+#define ARRAY_NAME uint64_array
+#define ARRAY_TYPE uint64_t
+#include "array/array.h"
+#undef ARRAY_NAME
+#undef ARRAY_TYPE
+
+#define VECTOR_NAME uint64_vector
+#define VECTOR_TYPE uint64_t
+#define VECTOR_TYPE_ABS nop
+#include "vector/numeric.h"
+#undef VECTOR_NAME
+#undef VECTOR_TYPE
+#undef VECTOR_TYPE_ABS
 
 #endif

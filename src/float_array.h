@@ -5,10 +5,18 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "vector/vector.h"
-#include "vector/numeric.h"
+#define ARRAY_NAME float_array
+#define ARRAY_TYPE float
+#include "array/array.h"
+#undef ARRAY_NAME
+#undef ARRAY_TYPE
 
-VECTOR_INIT(float_array, float)
-VECTOR_NUMERIC(float_array, float, float, fabs)
+#define VECTOR_NAME float_vector
+#define VECTOR_TYPE float
+#define VECTOR_TYPE_ABS fabs
+#include "vector/numeric.h"
+#undef VECTOR_NAME
+#undef VECTOR_TYPE
+#undef VECTOR_TYPE_ABS
 
 #endif

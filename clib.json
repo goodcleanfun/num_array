@@ -4,6 +4,7 @@
   "repo": "goodcleanfun/num_arrays",
   "keywords": ["vector", "array", "standard", "numeric"],
   "dependencies": {
+    "goodcleanfun/array": "*",
     "goodcleanfun/vector": "*"
   },
   "license": "MIT",
