@@ -1,2 +1,2 @@
-# num_arrays
+# num_array
 Simple dynamic arrays for standard numeric types
