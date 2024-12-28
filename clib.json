@@ -4,8 +4,9 @@
   "repo": "goodcleanfun/num_arrays",
   "keywords": ["vector", "array", "standard", "numeric"],
   "dependencies": {
+    "goodcleanfun/aligned": "*",
     "goodcleanfun/array": "*",
-    "goodcleanfun/vector": "*"
+    "goodcleanfun/vector_ops": "*"
   },
   "license": "MIT",
   "src": [
@@ -13,7 +14,6 @@
     "src/float_array.h",
     "src/int32_array.h",
     "src/int64_array.h",
-    "src/nop.h",
     "src/uint32_array.h",
     "src/uint64_array.h"
   ]
