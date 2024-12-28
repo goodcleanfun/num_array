@@ -11,12 +11,4 @@
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#define VECTOR_NAME float_vector
-#define VECTOR_TYPE float
-#define VECTOR_TYPE_ABS fabs
-#include "vector/numeric.h"
-#undef VECTOR_NAME
-#undef VECTOR_TYPE
-#undef VECTOR_TYPE_ABS
-
 #endif

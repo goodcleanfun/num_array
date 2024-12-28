@@ -11,12 +11,6 @@
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#define VECTOR_NAME double_vector
-#define VECTOR_TYPE double
-#define VECTOR_TYPE_ABS fabs
-#include "vector/numeric.h"
-#undef VECTOR_NAME
-#undef VECTOR_TYPE
-#undef VECTOR_TYPE_ABS
+#include "vector_ops/double.h"
 
 #endif
