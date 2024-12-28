@@ -1,7 +1,7 @@
 {
   "name": "num_array",
   "version": "0.6.0",
-  "repo": "goodcleanfun/num_arrays",
+  "repo": "goodcleanfun/num_array",
   "keywords": ["vector", "array", "standard", "numeric"],
   "dependencies": {
     "goodcleanfun/aligned": "*",
