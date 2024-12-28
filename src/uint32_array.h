@@ -5,8 +5,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "nop.h"
-
 #define ARRAY_NAME uint32_array
 #define ARRAY_TYPE uint32_t
 #include "array/array.h"

@@ -5,9 +5,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "nop.h"
-
-
 #define ARRAY_NAME uint64_array
 #define ARRAY_TYPE uint64_t
 #include "array/array.h"
