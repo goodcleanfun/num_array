@@ -7,7 +7,7 @@
 
 #define ARRAY_NAME double_array_aligned
 #define ARRAY_TYPE double
-#include "aligned/aligned_array.h"
+#include "aligned_array/aligned_array.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 

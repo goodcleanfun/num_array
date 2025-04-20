@@ -4,7 +4,7 @@
   "repo": "goodcleanfun/num_array",
   "keywords": ["vector", "array", "standard", "numeric"],
   "dependencies": {
-    "goodcleanfun/aligned": "*",
+    "goodcleanfun/aligned_array": "*",
     "goodcleanfun/array": "*",
     "goodcleanfun/vector_ops": "*"
   },

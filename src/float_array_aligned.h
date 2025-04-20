@@ -7,7 +7,7 @@
 
 #define ARRAY_NAME float_array_aligned
 #define ARRAY_TYPE float
-#include "aligned/aligned_array.h"
+#include "aligned_aligned/aligned_array.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 

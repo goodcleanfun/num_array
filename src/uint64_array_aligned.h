@@ -7,7 +7,7 @@
 
 #define ARRAY_NAME uint64_array_aligned
 #define ARRAY_TYPE uint64_t
-#include "aligned/aligned_array.h"
+#include "aligned_array/aligned_array.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 

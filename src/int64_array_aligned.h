@@ -6,7 +6,7 @@
 #include <stdbool.h>
 #define ARRAY_NAME int64_array_aligned
 #define ARRAY_TYPE int64_t
-#include "aligned/aligned_array.h"
+#include "aligned_array/aligned_array.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
