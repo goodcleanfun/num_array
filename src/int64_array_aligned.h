@@ -10,6 +10,6 @@
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vector_ops/int64.h"
+#include "vectorized/int64.h"
 
 #endif

@@ -11,6 +11,6 @@
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vector_ops/float.h"
+#include "vectorized/float.h"
 
 #endif

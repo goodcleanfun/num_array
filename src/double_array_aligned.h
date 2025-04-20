@@ -11,6 +11,6 @@
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vector_ops/double.h"
+#include "vectorized/double.h"
 
 #endif

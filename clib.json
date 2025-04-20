@@ -6,7 +6,7 @@
   "dependencies": {
     "goodcleanfun/aligned_array": "*",
     "goodcleanfun/array": "*",
-    "goodcleanfun/vector_ops": "*"
+    "goodcleanfun/vectorized": "*"
   },
   "license": "MIT",
   "src": [

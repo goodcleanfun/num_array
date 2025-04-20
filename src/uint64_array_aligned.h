@@ -11,6 +11,6 @@
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vector_ops/uint64.h
+#include "vectorized/uint64.h
 
 #endif
