@@ -5,6 +5,8 @@
   "keywords": ["vector", "array", "standard", "numeric"],
   "dependencies": {
     "goodcleanfun/aligned_array": "*",
+    "goodcleanfun/array": "*",
+    "goodcleanfun/sort": "*",
     "goodcleanfun/vectorized": "*"
   },
   "license": "MIT",
