@@ -13,4 +13,12 @@
 
 #include "vectorized/float32.h"
 
+static inline void float_array_log(float_array *self) {
+    float_vector_log(self->values, self->n);
+}
+
+static inline void float_array_exp(float_array *self) {
+    float_vector_exp(self->values, self->n);
+}
+
 #endif
