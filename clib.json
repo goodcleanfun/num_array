@@ -5,23 +5,16 @@
   "keywords": ["vector", "array", "standard", "numeric"],
   "dependencies": {
     "goodcleanfun/aligned_array": "*",
-    "goodcleanfun/array": "*",
     "goodcleanfun/vectorized": "*"
   },
   "license": "MIT",
   "src": [
     "src/double_array.h",
-    "src/double_array_aligned.h",
     "src/float_array.h",
-    "src/float_array_aligned.h",
     "src/int32_array.h",
-    "src/int32_array_aligned.h",
     "src/int64_array.h",
-    "src/int64_array_aligned.h",
     "src/uint32_array.h",
-    "src/uint32_array_aligned.h",
-    "src/uint64_array.h",
-    "src/uint64_array_aligned.h"
+    "src/uint64_array.h"
   ]
 }
 
