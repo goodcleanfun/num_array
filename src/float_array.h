@@ -8,6 +8,7 @@
 #define ARRAY_NAME float_array
 #define ARRAY_TYPE float
 #include "aligned_array/aligned_array.h"
+#include "array/sort.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 

@@ -7,6 +7,7 @@
 #define ARRAY_NAME int64_array
 #define ARRAY_TYPE int64_t
 #include "aligned_array/aligned_array.h"
+#include "array/sort.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
