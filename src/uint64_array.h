@@ -5,12 +5,12 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define ARRAY_NAME uint64_array
+#define ARRAY_NAME uint64_array_aligned
 #define ARRAY_TYPE uint64_t
-#include "array/array.h"
+#include "aligned_array/aligned_array.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vectorized/uint64.h"
+#include "vectorized/uint64.h
 
 #endif

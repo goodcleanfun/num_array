@@ -5,12 +5,12 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define ARRAY_NAME float_array
+#define ARRAY_NAME float_array_aligned
 #define ARRAY_TYPE float
-#include "array/array.h"
+#include "aligned_aligned/aligned_array.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vector_ops/float.h"
+#include "vectorized/float32.h"
 
 #endif

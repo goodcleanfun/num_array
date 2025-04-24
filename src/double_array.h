@@ -7,10 +7,10 @@
 
 #define ARRAY_NAME double_array
 #define ARRAY_TYPE double
-#include "array/array.h"
+#include "aligned_array/aligned_array.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vector_ops/double.h"
+#include "vectorized/float64.h"
 
 #endif

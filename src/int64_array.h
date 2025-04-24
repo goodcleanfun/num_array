@@ -1,16 +1,15 @@
-#ifndef NUM_ARRAY_INT64_H
-#define NUM_ARRAY_INT64_H
+#ifndef NUM_ARRAY_INT64_ALIGNED_H
+#define NUM_ARRAY_INT64_ALIGNED_H
 
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
-
-#define ARRAY_NAME int64_array
+#define ARRAY_NAME int64_array_aligned
 #define ARRAY_TYPE int64_t
-#include "array/array.h"
+#include "aligned_array/aligned_array.h"
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vector_ops/int64.h"
+#include "vectorized/int64.h"
 
 #endif
