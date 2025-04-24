@@ -5,7 +5,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define ARRAY_NAME float_array_aligned
+#define ARRAY_NAME float_array
 #define ARRAY_TYPE float
 #include "aligned_array/aligned_array.h"
 #undef ARRAY_NAME

@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
-#define ARRAY_NAME int64_array_aligned
+#define ARRAY_NAME int64_array
 #define ARRAY_TYPE int64_t
 #include "aligned_array/aligned_array.h"
 #undef ARRAY_NAME
