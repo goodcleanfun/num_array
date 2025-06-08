@@ -12,7 +12,7 @@
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vectorized/float32.h"
+#include "vectorized/float_vector.h"
 
 static inline void float_array_log(float_array *self) {
     float_vector_log(self->a, self->n);

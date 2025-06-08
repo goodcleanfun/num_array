@@ -12,6 +12,6 @@
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vectorized/int32.h"
+#include "vectorized/int32_vector.h"
 
 #endif

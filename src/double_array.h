@@ -12,6 +12,6 @@
 #undef ARRAY_NAME
 #undef ARRAY_TYPE
 
-#include "vectorized/float64.h"
+#include "vectorized/double_vector.h"
 
 #endif
